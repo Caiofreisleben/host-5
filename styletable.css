@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div {
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+}
+p {
+    color: white;
+}
+th {
+    padding:  10px 50px;
+}
+img{
+    width: 60px;
+    height: 60px;
+}
+.footer {
+    position: fixed;
+    width: 100%;
+    background-color: #2f86d6;
+}
+.footer .logotipo {
+    padding: 20px;
+    position: relative;
+    left: 400px;
+}
+.footer .logotipo img{
+    position: absolute;
+}
+.footer .frase-logotipo {
+    padding-left: 80px;
+}
+.footer .links {
+    position: absolute;
+    top: 40%;
+    right: 400px;
+}
+.footer .links a{
+    padding: 10px;
+    color: white;
+}
+.tabela {
+    padding: 160px;
+    text-align: center;
+}
+.tabela p {
+    color: #a8a4a4;
+}
+.tabela .primeira-linha {
+    text-align: left;
+    width: 320px;
+    height: 45px;
+}
+.tabela th, .primeira-linha {
+    background-color: #f1f3f7;
+}
+.tabela .marcador-azul {
+    position: relative;
+    background-color: #2f86d6;
+    border-radius: 100px;
+    left: 41%;
+    width: 20px;
+    height: 20px;
+}
+.rodape {
+    /* text-align: center; */
+    background-color: #2f86d6;
+    padding: 20px;
+}
+.rodape p { 
+    color: black;
+}
+.rodape .logotipo {
+    padding: 20px;
+    position: relative;
+    left: 40%;
+}
+.rodape .logotipo img{
+    position: absolute;
+}
+.rodape .frase-logotipo {
+    padding-left: 75px;
+}
+.rodape-rodape {
+    background-color: #f1f3f7;
+    height: 60px;
+    width: 100%;
+    
+}
+.paragrafo-rodape {
+    text-align: center;
+}
+.rodape-rodape p {
+    padding-top: 20px;
+    color: black;
+}
